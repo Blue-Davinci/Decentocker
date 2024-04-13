@@ -28,12 +28,13 @@ To get started with decentocker, follow these steps:
 `./decentocker`
 
 + Start a new game by creating instances of the server and connecting them:
-    - playerA := makeServerAndStart(":3000", ":3001") // dealer
-    - playerB := makeServerAndStart(":4000", ":4001") // sb
-    - playerC := makeServerAndStart(":5000", ":5001") // bb
-    - playerD := makeServerAndStart(":7000", ":7001") // bb + 2
+  ```
+     playerA := makeServerAndStart(":3000", ":3001") // dealer
+     playerB := makeServerAndStart(":4000", ":4001") // sb
+     playerC := makeServerAndStart(":5000", ":5001") // bb
+     playerD := makeServerAndStart(":7000", ":7001") // bb + 2
 
-    - playerB.Connect(playerA.ListenAddr)
-    - playerC.Connect(playerB.ListenAddr)
-    - playerD.Connect(playerC.ListenAddr)
-
+     playerB.Connect(playerA.ListenAddr)
+     playerC.Connect(playerB.ListenAddr)
+     playerD.Connect(playerC.ListenAddr)
+```
