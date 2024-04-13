@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/blue-davinci/decentoker/p2p"
+	"github.com/blue-davinci/decentocker/p2p"
 )
 
 func makeServerAndStart(addr, apiAddr string) *p2p.Server {

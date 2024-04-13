@@ -1,8 +1,8 @@
 build:
-	@go build -o bin/ggpoker
+	@go build -o bin/decentocker
 
 run: build 
-	@./bin/ggpoker
+	@./bin/centocker
 
 test:
 	go test -v ./...
