@@ -1,4 +1,4 @@
-module github.com/anthdm/ggpoker
+module github.com/blue-davinci/decentocker
 
 go 1.18
 
