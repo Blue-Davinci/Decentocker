@@ -1,7 +1,7 @@
 # Decentocker
 <p align="center">
   <a href="" rel="noopener">
-    <img width="300px" height="250px" src="https://i.ibb.co/1ZwW8jF/decentoker-modified.png" alt="Decentocker Project logo" style="border-radius:15px;">
+    <img width="250px" height="250px" src="https://i.ibb.co/1ZwW8jF/decentoker-modified.png" alt="Decentocker Project logo" style="border-radius:15px;">
   </a>
 </p>
 
