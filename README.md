@@ -1,8 +1,10 @@
 # Decentocker
 <p align="center">
   <a href="" rel="noopener">
- <img width=300px height=190px src="https://i.ibb.co/dGcssb2/decentoker.jpg" alt="Decentocker Project logo"></a>
+    <img width="300px" height="190px" src="https://i.ibb.co/dGcssb2/decentoker.jpg" alt="Decentocker Project logo" style="border-radius: 15px;">
+  </a>
 </p>
+
 
 # Overview
 decentocker is a decentralized poker game server built using Go (Golang). It allows players to connect to each other and play poker games in a peer-to-peer (P2P) manner. The server uses the TCP protocol for communication between players and provides an API for managing game states and player actions.
